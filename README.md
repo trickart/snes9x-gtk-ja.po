@@ -5,7 +5,7 @@ Windows版のSnes9xは[ねこかぶのホームページ](http://nekokabu.s7.xre
 以下のコマンドを実行。(ArchLinuxの場合。他のディストリでも大差ないはず)
 
 ```
-$ msgfmt ja_JP.po -o snes9x-gtk.mo
+$ msgfmt ja.po -o snes9x-gtk.mo
 # cp snes9x-gtk.mo /usr/share/locale/ja/LC_MESSAGES/
 ```
 
