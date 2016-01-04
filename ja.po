@@ -5,21 +5,22 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-30 23:36+0900\n"
-"PO-Revision-Date: 2015-12-30 19:39+0900\n"
+"PO-Revision-Date: 2016-01-05 00:16+0900\n"
 "Last-Translator: trickart <trickart412@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: ja_JP\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.6\n"
 
 #: ../src/gtk_binding.cpp:190
 #, c-format
 msgid "Unknown"
-msgstr ""
+msgstr "不明"
 
 #: ../src/gtk_binding.cpp:205
 #, c-format
@@ -66,11 +67,13 @@ msgstr "説明なし"
 #: ../src/gtk_cheat.cpp:247
 msgid "Code does not match Game Genie, ProAction Replay, or GoldFinger format."
 msgstr ""
+"コードはプロアクションリプレイ、Game Genie、GoldFingerのいずれのフォーマット"
+"にもマッチしませんでした"
 
 #: ../src/gtk_config.cpp:837
 #, c-format
 msgid "bad option name: %s\n"
-msgstr ""
+msgstr "不正なオプション: %s\n"
 
 #: ../src/gtk_config.cpp:1084
 #, c-format
@@ -80,27 +83,27 @@ msgstr ""
 #: ../src/gtk_config.cpp:1121
 #, c-format
 msgid "Couldn't create config directory: %s\n"
-msgstr ""
+msgstr "コンフィグディレクトリを作成できません: %s\n"
 
 #: ../src/gtk_config.cpp:1144
 #, c-format
 msgid "Couldn't open config file: %s\n"
-msgstr ""
+msgstr "コンフィグファイルが開けません: %s\n"
 
 #: ../src/gtk_display_driver_opengl.cpp:515
 #, c-format
 msgid "Cannot load GLSL shader functions.\n"
-msgstr ""
+msgstr "GLGLシェーダー関数がロードできません\n"
 
 #: ../src/gtk_display_driver_opengl.cpp:523
 #, c-format
 msgid "Cannot read shader file.\n"
-msgstr ""
+msgstr "シェーダーファイルが開けません\n"
 
 #: ../src/gtk_display_driver_opengl.cpp:531
 #, c-format
 msgid "File %s is not a shader file.\n"
-msgstr ""
+msgstr "%s はシェーダーファイルではありません\n"
 
 #: ../src/gtk_display_driver_opengl.cpp:553
 #, c-format
@@ -110,7 +113,7 @@ msgstr ""
 #: ../src/gtk_display_driver_opengl.cpp:592
 #, c-format
 msgid "pixel_buffer_object extension not supported.\n"
-msgstr ""
+msgstr "ピクセルバッファオブジェクト拡張はサポートされてません\n"
 
 #: ../src/gtk_display_driver_opengl.cpp:795
 #, c-format
@@ -191,7 +194,7 @@ msgstr ""
 
 #: ../src/gtk_preferences.cpp:882
 msgid "Warning: Possible File Overwrite"
-msgstr ""
+msgstr "警告: ファイルを上書きします"
 
 #: ../src/gtk_preferences.cpp:973
 msgid "Select Folder"
@@ -256,7 +259,7 @@ msgstr ""
 #: ../src/gtk_s9x.cpp:186
 #, c-format
 msgid "Error opening: %s\n"
-msgstr "エラー: %s が開けません"
+msgstr "エラー: %s が開けません\n"
 
 #: ../src/gtk_s9xwindow.cpp:798
 msgid "Couldn't load files."
@@ -400,7 +403,7 @@ msgstr ""
 
 #: ../src/snes9x.ui:689
 msgid "Pro Action Replay"
-msgstr ""
+msgstr "プロアクションリプレイ"
 
 #: ../src/snes9x.ui:692
 msgid "Goldfinger"
@@ -620,11 +623,11 @@ msgstr ""
 
 #: ../src/snes9x.ui:1038
 msgid "_File"
-msgstr "ファイル (_F)"
+msgstr "ファイル(_F)"
 
 #: ../src/snes9x.ui:1045
 msgid "_Open ROM Image..."
-msgstr "ROMイメージを開く (_O)..."
+msgstr "ROMイメージを開く(_O)"
 
 #: ../src/snes9x.ui:1059
 msgid "Open Recent"
@@ -632,7 +635,7 @@ msgstr "最近開いたROM"
 
 #: ../src/snes9x.ui:1071
 msgid "Open with _NetPlay..."
-msgstr "ネットプレイ (_N)..."
+msgstr "ネットプレイ(_N)"
 
 #: ../src/snes9x.ui:1074
 msgid "Open a ROM to use with NetPlay"
@@ -640,59 +643,59 @@ msgstr "ネットプレイするROMを開く"
 
 #: ../src/snes9x.ui:1085
 msgid "Open _MultiCart..."
-msgstr "マルチROMを開く (_M)..."
+msgstr "マルチROMを開く(_M)"
 
 #: ../src/snes9x.ui:1100
 msgid "_Load State"
-msgstr "ステートセーブをロード (_L)"
+msgstr "ステートセーブをロード(_L)"
 
 #: ../src/snes9x.ui:1110 ../src/snes9x.ui:1220
 msgid "Slot _0"
-msgstr "Slot 0 (_0)"
+msgstr "スロット0 (_0)"
 
 #: ../src/snes9x.ui:1119 ../src/snes9x.ui:1229
 msgid "Slot _1"
-msgstr "Slot 1 (_1)"
+msgstr "スロット1 (_1)"
 
 #: ../src/snes9x.ui:1128 ../src/snes9x.ui:1238
 msgid "Slot _2"
-msgstr "Slot 2 (_2)"
+msgstr "スロット2 (_2)"
 
 #: ../src/snes9x.ui:1137 ../src/snes9x.ui:1247
 msgid "Slot _3"
-msgstr "Slot 3 (_3)"
+msgstr "スロット3 (_3)"
 
 #: ../src/snes9x.ui:1146 ../src/snes9x.ui:1256
 msgid "Slot _4"
-msgstr "Slot 4 (_4)"
+msgstr "スロット4 (_4)"
 
 #: ../src/snes9x.ui:1155 ../src/snes9x.ui:1265
 msgid "Slot _5"
-msgstr "Slot 5 (_5)"
+msgstr "スロット5 (_5)"
 
 #: ../src/snes9x.ui:1164 ../src/snes9x.ui:1274
 msgid "Slot _6"
-msgstr "Slot 6 (_6)"
+msgstr "スロット6 (_6)"
 
 #: ../src/snes9x.ui:1173 ../src/snes9x.ui:1283
 msgid "Slot _7"
-msgstr "Slot 7 (_7)"
+msgstr "スロット7 (_7)"
 
 #: ../src/snes9x.ui:1182 ../src/snes9x.ui:1292
 msgid "Slot _8"
-msgstr "Slot 8 (_8)"
+msgstr "スロット8 (_8)"
 
 #: ../src/snes9x.ui:1197
 msgid "From _File..."
-msgstr ""
+msgstr "ファイルを読み込む(_F)"
 
 #: ../src/snes9x.ui:1210
 msgid "_Save State"
-msgstr "ステートセーブ (_S)"
+msgstr "ステートセーブ(_S)"
 
 #: ../src/snes9x.ui:1307
 msgid "To _File..."
-msgstr ""
+msgstr "ファイルに保存(_F)"
 
 #: ../src/snes9x.ui:1324
 msgid "Save SPC..."
@@ -700,43 +703,43 @@ msgstr "SPCを保存..."
 
 #: ../src/snes9x.ui:1341
 msgid "Show ROM _Info..."
-msgstr "ROM情報を表示 (_I)..."
+msgstr "ROM情報を表示(_I)"
 
 #: ../src/snes9x.ui:1358
 msgid "_Quit"
-msgstr "終了 (_Q)"
+msgstr "終了(_Q)"
 
 #: ../src/snes9x.ui:1375
 msgid "_Emulation"
-msgstr "エミュレーション (_E)"
+msgstr "エミュレーション(_E)"
 
 #: ../src/snes9x.ui:1382
 msgid "Run / _Continue"
-msgstr "実行 / 再開 (_C)"
+msgstr "実行/再開(_C)"
 
 #: ../src/snes9x.ui:1393
 msgid "_Pause"
-msgstr "ポーズ (_P)"
+msgstr "ポーズ(_P)"
 
 #: ../src/snes9x.ui:1411
 msgid "Load _Movie..."
-msgstr "ムービーをロード (_M)..."
+msgstr "ムービーをロード(_M)"
 
 #: ../src/snes9x.ui:1423
 msgid "R_ecord Movie..."
-msgstr "ムービーを録画 (_E)..."
+msgstr "ムービーを録画(_E)"
 
 #: ../src/snes9x.ui:1435
 msgid "_Stop Recording"
-msgstr "録画を停止 (_S)"
+msgstr "録画を停止(_S)"
 
 #: ../src/snes9x.ui:1447
 msgid "_Jump to Frame..."
-msgstr "フレームに飛ぶ (_J)..."
+msgstr "フレームに飛ぶ(_J)"
 
 #: ../src/snes9x.ui:1465
 msgid "Sy_nc Clients"
-msgstr "クライアントと同期 (_N)"
+msgstr "クライアントと同期(_N)"
 
 #: ../src/snes9x.ui:1482
 msgid "Reset"
@@ -744,23 +747,23 @@ msgstr "リセット"
 
 #: ../src/snes9x.ui:1494
 msgid "Soft _Reset"
-msgstr "ソフトリセット (_R)"
+msgstr "ソフトリセット(_R)"
 
 #: ../src/snes9x.ui:1511
 msgid "_View"
-msgstr "ビュー (_V)"
+msgstr "表示(_V)"
 
 #: ../src/snes9x.ui:1519
 msgid "_Hide Menu"
-msgstr "メニューを隠す (_H)"
+msgstr "メニューを隠す(_H)"
 
 #: ../src/snes9x.ui:1532
 msgid "_Status Bar"
-msgstr "ステータスバー (_S)"
+msgstr "ステータスバー(_S)"
 
 #: ../src/snes9x.ui:1545
 msgid "_Change Size"
-msgstr "サイズ変更 (_C)"
+msgstr "サイズ変更(_C)"
 
 #: ../src/snes9x.ui:1559
 msgid "_1x"
@@ -784,11 +787,11 @@ msgstr "5x (_5)"
 
 #: ../src/snes9x.ui:1612
 msgid "_Fullscreen"
-msgstr "フルスクリーン (_F)"
+msgstr "フルスクリーン(_F)"
 
 #: ../src/snes9x.ui:1629
 msgid "_Options"
-msgstr "オプション (_O)"
+msgstr "オプション(_O)"
 
 #: ../src/snes9x.ui:1638
 msgid "Controller Ports"
@@ -820,11 +823,11 @@ msgstr "マルチタップ"
 
 #: ../src/snes9x.ui:1756
 msgid "_Cheats..."
-msgstr "チート (_C)"
+msgstr "チート(_C)"
 
 #: ../src/snes9x.ui:1770
 msgid "_Preferences..."
-msgstr "設定 (_P)..."
+msgstr "設定(_P)"
 
 #: ../src/snes9x.ui:1826
 msgid "Open Multiple ROM Images (MultiCart)"
@@ -832,19 +835,19 @@ msgstr "マルチROMを開く"
 
 #: ../src/snes9x.ui:1889
 msgid "Slot A:"
-msgstr ""
+msgstr "スロットA:"
 
 #: ../src/snes9x.ui:1901
 msgid "Select an Image for Slot A"
-msgstr "Slot Aのイメージを選択"
+msgstr "スロットAのイメージを選択"
 
 #: ../src/snes9x.ui:1925
 msgid "Slot B:"
-msgstr ""
+msgstr "スロットB:"
 
 #: ../src/snes9x.ui:1937
 msgid "Select an Image for Slot B"
-msgstr "Slot Bのイメージを選択"
+msgstr "スロットBのイメージを選択"
 
 #: ../src/snes9x.ui:1969
 msgid "Snes9x NetPlay"
@@ -860,11 +863,11 @@ msgstr ""
 #: ../src/snes9x.ui:4700 ../src/snes9x.ui:4717 ../src/snes9x.ui:4734
 #: ../src/snes9x.ui:4751
 msgid "Browse..."
-msgstr "選択..."
+msgstr "選択"
 
 #: ../src/snes9x.ui:2083
 msgid "Clear entry"
-msgstr ""
+msgstr "エントリをクリア"
 
 #: ../src/snes9x.ui:2103
 msgid "<b>ROM Image</b>"
@@ -1018,7 +1021,7 @@ msgstr "スレッド使用する"
 
 #: ../src/snes9x.ui:2840
 msgid "High-resolution effect:"
-msgstr ""
+msgstr "ハイレゾリューションエフェクト:"
 
 #: ../src/snes9x.ui:2883
 msgid "Apply scaling filter:"
@@ -1074,7 +1077,7 @@ msgstr ""
 
 #: ../src/snes9x.ui:3340
 msgid "Gamma:"
-msgstr ""
+msgstr "ガンマ:"
 
 #: ../src/snes9x.ui:3355
 msgid "Fringing:"
@@ -1257,7 +1260,7 @@ msgstr "左右もしくは上下を同時に押した時"
 
 #: ../src/snes9x.ui:4346
 msgid "<b>Accuracy</b>"
-msgstr ""
+msgstr "<b>エミュレーションの正確性</b>"
 
 #: ../src/snes9x.ui:4377
 msgid "Pause emulation when switching away from Snes9x"
@@ -1337,7 +1340,7 @@ msgstr "<b>ジョイパッド:</b>"
 
 #: ../src/snes9x.ui:5036
 msgid "_Reset"
-msgstr "リセット (_R)"
+msgstr "リセット(_R)"
 
 #: ../src/snes9x.ui:5064
 msgid "Swap with:"
@@ -1345,7 +1348,7 @@ msgstr "設定を入れ替える:"
 
 #: ../src/snes9x.ui:5092
 msgid "_Swap"
-msgstr "と入れ替え (_S)"
+msgstr "と入れ替え(_S)"
 
 #: ../src/snes9x.ui:5114
 msgid "Use modifier keys (CTRL, SHIFT, ALT) directly"
@@ -1442,7 +1445,7 @@ msgstr "アナログパットに触っていない状態で調整ボタンを押
 
 #: ../src/snes9x.ui:6176
 msgid "Cali_brate"
-msgstr "調整 (_B)"
+msgstr "調整(_B)"
 
 #: ../src/snes9x.ui:6209
 msgid "<b>Calibration</b>"
@@ -1554,39 +1557,39 @@ msgstr "<b>クイックロード</b>"
 
 #: ../src/snes9x.ui:7072 ../src/snes9x.ui:7200
 msgid "Slot 1"
-msgstr ""
+msgstr "スロット1"
 
 #: ../src/snes9x.ui:7086 ../src/snes9x.ui:7184
 msgid "Slot 0"
-msgstr ""
+msgstr "スロット0"
 
 #: ../src/snes9x.ui:7100 ../src/snes9x.ui:7216
 msgid "Slot 2"
-msgstr ""
+msgstr "スロット2"
 
 #: ../src/snes9x.ui:7114 ../src/snes9x.ui:7232
 msgid "Slot 3"
-msgstr ""
+msgstr "スロット3"
 
 #: ../src/snes9x.ui:7128 ../src/snes9x.ui:7248
 msgid "Slot 4"
-msgstr ""
+msgstr "スロット4"
 
 #: ../src/snes9x.ui:7142 ../src/snes9x.ui:7264
 msgid "Slot 5"
-msgstr ""
+msgstr "スロット5"
 
 #: ../src/snes9x.ui:7156 ../src/snes9x.ui:7280
 msgid "Slot 6"
-msgstr ""
+msgstr "スロット6"
 
 #: ../src/snes9x.ui:7170 ../src/snes9x.ui:7296
 msgid "Slot 7"
-msgstr ""
+msgstr "スロット7"
 
 #: ../src/snes9x.ui:7312 ../src/snes9x.ui:7328
 msgid "Slot 8"
-msgstr ""
+msgstr "スロット8"
 
 #: ../src/snes9x.ui:7725
 msgid "Toggle sound channel 0"
