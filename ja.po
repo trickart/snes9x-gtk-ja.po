@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-30 23:36+0900\n"
-"PO-Revision-Date: 2016-01-05 00:16+0900\n"
+"PO-Revision-Date: 2016-01-07 23:41+0900\n"
 "Last-Translator: trickart <trickart412@gmail.com>\n"
-"Language: ja_JP\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -78,7 +78,7 @@ msgstr "不正なオプション: %s\n"
 #: ../src/gtk_config.cpp:1084
 #, c-format
 msgid "failure to read snes9x node"
-msgstr ""
+msgstr "Snes9xノードが読み込めません"
 
 #: ../src/gtk_config.cpp:1121
 #, c-format
@@ -108,7 +108,7 @@ msgstr "%s はシェーダーファイルではありません\n"
 #: ../src/gtk_display_driver_opengl.cpp:553
 #, c-format
 msgid "Shader lacks any programs.\n"
-msgstr ""
+msgstr "シェーダーはなにかプログラムが不足しています。\n"
 
 #: ../src/gtk_display_driver_opengl.cpp:592
 #, c-format
@@ -123,11 +123,11 @@ msgstr ""
 #: ../src/gtk_display_driver_opengl.cpp:815
 #, c-format
 msgid "Couldn't create an OpenGL context.\n"
-msgstr ""
+msgstr "OpenGLコンテキストが作成できません\n"
 
 #: ../src/gtk_netplay.cpp:58
 msgid "Connection Error"
-msgstr ""
+msgstr "接続エラー"
 
 #: ../src/gtk_preferences.cpp:16
 msgid "Same location as current game"
@@ -135,7 +135,7 @@ msgstr "ROMファイルと同じフォルダ"
 
 #: ../src/gtk_preferences.cpp:443
 msgid "Current joystick centers have been saved."
-msgstr ""
+msgstr "アナログスティックの中心を記録しました"
 
 #: ../src/gtk_preferences.cpp:444
 msgid "Calibration Complete"
@@ -234,7 +234,7 @@ msgstr "OpenGL - 3Dグラフィックハードウェアを使用する"
 
 #: ../src/gtk_preferences.cpp:1069
 msgid "XVideo - Use hardware video blitter"
-msgstr ""
+msgstr "XVideo - ハードウェアビデオブリッターを使用する"
 
 #: ../src/gtk_preferences.cpp:1075
 msgid "PortAudio"
@@ -321,7 +321,7 @@ msgstr "SPCファイル %s が保存できません"
 #: ../src/gtk_s9xwindow.cpp:1311
 #, c-format
 msgid "%sHosting NetPlay - %s"
-msgstr ""
+msgstr "%sネットプレイをホストする - %s"
 
 #: ../src/gtk_s9xwindow.cpp:1312 ../src/gtk_s9xwindow.cpp:1320
 #: ../src/gtk_s9xwindow.cpp:1334
@@ -360,10 +360,13 @@ msgid ""
 "\n"
 "This ROM has been modified or damaged"
 msgstr ""
+"\n"
+"\n"
+"このROMは改変されているか壊れています\t"
 
 #: ../src/gtk_s9xwindow.cpp:1399
 msgid "File Information"
-msgstr ""
+msgstr "ファイル情報"
 
 #: ../src/snes9x.ui:9
 msgid "About Snes9x"
@@ -539,7 +542,7 @@ msgstr ""
 
 #: ../src/snes9x.ui:903
 msgid "Toggle the menu bar"
-msgstr ""
+msgstr "メニューバーの表示/非表示を切り替え"
 
 #: ../src/snes9x.ui:906
 msgid "Exit fullscreen mode"
@@ -875,15 +878,15 @@ msgstr "<b>ROMイメージ</b>"
 
 #: ../src/snes9x.ui:2132
 msgid "Connect to another computer"
-msgstr ""
+msgstr "別のマシンと接続"
 
 #: ../src/snes9x.ui:2136
 msgid "Connect to another computer that is running Snes9x NetPlay as a server"
-msgstr ""
+msgstr "Snes9xをネットプレイサーバーとして別のマシンと接続"
 
 #: ../src/snes9x.ui:2156
 msgid "Name or IP address:"
-msgstr ""
+msgstr "名前またはIPアドレス:"
 
 #: ../src/snes9x.ui:2168
 msgid "Domain name or internet protocol address of a remote computer"
@@ -913,7 +916,7 @@ msgstr "<b>サーバー</b>"
 
 #: ../src/snes9x.ui:2274
 msgid "Sync using reset"
-msgstr ""
+msgstr "リセットして同期"
 
 #: ../src/snes9x.ui:2278
 msgid ""
@@ -1501,11 +1504,11 @@ msgstr "ポーズ"
 
 #: ../src/snes9x.ui:6461
 msgid "Toggle turbo"
-msgstr ""
+msgstr "ターボをオン/オフ"
 
 #: ../src/snes9x.ui:6475
 msgid "Enable turbo"
-msgstr ""
+msgstr "ターボ(押してる間だけ)"
 
 #: ../src/snes9x.ui:6490
 msgid "Open ROM"
@@ -1513,27 +1516,27 @@ msgstr "ROMを開く"
 
 #: ../src/snes9x.ui:6749
 msgid "Toggle BG layer 0"
-msgstr ""
+msgstr "背景レイヤー0を表示/非表示"
 
 #: ../src/snes9x.ui:6761
 msgid "Toggle BG layer 1"
-msgstr ""
+msgstr "背景レイヤー1を表示/非表示"
 
 #: ../src/snes9x.ui:6775
 msgid "Toggle BG layer 2"
-msgstr ""
+msgstr "背景レイヤー2を表示/非表示"
 
 #: ../src/snes9x.ui:6789
 msgid "Toggle BG layer 3"
-msgstr ""
+msgstr "背景レイヤー3を表示/非表示"
 
 #: ../src/snes9x.ui:6803
 msgid "Toggle sprites"
-msgstr ""
+msgstr "スプライトを表示/非表示"
 
 #: ../src/snes9x.ui:6817
 msgid "BG layering hack"
-msgstr ""
+msgstr "背景レイヤリングハック"
 
 #: ../src/snes9x.ui:6831
 msgid "Screenshot"
@@ -1541,7 +1544,7 @@ msgstr "スクリーンショット"
 
 #: ../src/snes9x.ui:6845
 msgid "Toggle fullscreen"
-msgstr ""
+msgstr "フルスクリーン"
 
 #: ../src/snes9x.ui:7009
 msgid "Graphics"
@@ -1593,39 +1596,39 @@ msgstr "スロット8"
 
 #: ../src/snes9x.ui:7725
 msgid "Toggle sound channel 0"
-msgstr ""
+msgstr "音声チャンネル0をオン/オフ"
 
 #: ../src/snes9x.ui:7737
 msgid "Toggle sound channel 1"
-msgstr ""
+msgstr "音声チャンネル1をオン/オフ"
 
 #: ../src/snes9x.ui:7751
 msgid "Toggle sound channel 2"
-msgstr ""
+msgstr "音声チャンネル2をオン/オフ"
 
 #: ../src/snes9x.ui:7765
 msgid "Toggle sound channel 3"
-msgstr ""
+msgstr "音声チャンネル3をオン/オフ"
 
 #: ../src/snes9x.ui:7779
 msgid "Toggle sound channel 4"
-msgstr ""
+msgstr "音声チャンネル4をオン/オフ"
 
 #: ../src/snes9x.ui:7793
 msgid "Toggle sound channel 5"
-msgstr ""
+msgstr "音声チャンネル5をオン/オフ"
 
 #: ../src/snes9x.ui:7807
 msgid "Toggle sound channel 6"
-msgstr ""
+msgstr "音声チャンネル6をオン/オフ"
 
 #: ../src/snes9x.ui:7821
 msgid "Toggle sound channel 7"
-msgstr ""
+msgstr "音声チャンネル7をオン/オフ"
 
 #: ../src/snes9x.ui:7835
 msgid "Toggle all sound channels"
-msgstr ""
+msgstr "全ての音声チャンネルをオン/オフ"
 
 #: ../src/snes9x.ui:8040
 msgid "Seek to frame"
