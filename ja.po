@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-30 23:36+0900\n"
-"PO-Revision-Date: 2016-01-07 23:41+0900\n"
+"PO-Revision-Date: 2016-01-08 01:17+0900\n"
 "Last-Translator: trickart <trickart412@gmail.com>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -630,7 +630,7 @@ msgstr "ファイル(_F)"
 
 #: ../src/snes9x.ui:1045
 msgid "_Open ROM Image..."
-msgstr "ROMイメージを開く(_O)"
+msgstr "ROMイメージを開く(_O)..."
 
 #: ../src/snes9x.ui:1059
 msgid "Open Recent"
@@ -638,7 +638,7 @@ msgstr "最近開いたROM"
 
 #: ../src/snes9x.ui:1071
 msgid "Open with _NetPlay..."
-msgstr "ネットプレイ(_N)"
+msgstr "ネットプレイ(_N)..."
 
 #: ../src/snes9x.ui:1074
 msgid "Open a ROM to use with NetPlay"
@@ -646,7 +646,7 @@ msgstr "ネットプレイするROMを開く"
 
 #: ../src/snes9x.ui:1085
 msgid "Open _MultiCart..."
-msgstr "マルチROMを開く(_M)"
+msgstr "マルチROMを開く(_M)..."
 
 #: ../src/snes9x.ui:1100
 msgid "_Load State"
@@ -690,7 +690,7 @@ msgstr "スロット8 (_8)"
 
 #: ../src/snes9x.ui:1197
 msgid "From _File..."
-msgstr "ファイルを読み込む(_F)"
+msgstr "ファイルを読み込む(_F)..."
 
 #: ../src/snes9x.ui:1210
 msgid "_Save State"
@@ -698,7 +698,7 @@ msgstr "ステートセーブ(_S)"
 
 #: ../src/snes9x.ui:1307
 msgid "To _File..."
-msgstr "ファイルに保存(_F)"
+msgstr "ファイルに保存(_F)..."
 
 #: ../src/snes9x.ui:1324
 msgid "Save SPC..."
@@ -706,7 +706,7 @@ msgstr "SPCを保存..."
 
 #: ../src/snes9x.ui:1341
 msgid "Show ROM _Info..."
-msgstr "ROM情報を表示(_I)"
+msgstr "ROM情報を表示(_I)..."
 
 #: ../src/snes9x.ui:1358
 msgid "_Quit"
@@ -726,11 +726,11 @@ msgstr "ポーズ(_P)"
 
 #: ../src/snes9x.ui:1411
 msgid "Load _Movie..."
-msgstr "ムービーをロード(_M)"
+msgstr "ムービーをロード(_M)..."
 
 #: ../src/snes9x.ui:1423
 msgid "R_ecord Movie..."
-msgstr "ムービーを録画(_E)"
+msgstr "ムービーを録画(_E)..."
 
 #: ../src/snes9x.ui:1435
 msgid "_Stop Recording"
@@ -738,7 +738,7 @@ msgstr "録画を停止(_S)"
 
 #: ../src/snes9x.ui:1447
 msgid "_Jump to Frame..."
-msgstr "フレームに飛ぶ(_J)"
+msgstr "フレームに飛ぶ(_J)..."
 
 #: ../src/snes9x.ui:1465
 msgid "Sy_nc Clients"
@@ -826,11 +826,11 @@ msgstr "マルチタップ"
 
 #: ../src/snes9x.ui:1756
 msgid "_Cheats..."
-msgstr "チート(_C)"
+msgstr "チート(_C)..."
 
 #: ../src/snes9x.ui:1770
 msgid "_Preferences..."
-msgstr "設定(_P)"
+msgstr "設定(_P)..."
 
 #: ../src/snes9x.ui:1826
 msgid "Open Multiple ROM Images (MultiCart)"
