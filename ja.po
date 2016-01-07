@@ -123,7 +123,7 @@ msgstr ""
 #: ../src/gtk_display_driver_opengl.cpp:815
 #, c-format
 msgid "Couldn't create an OpenGL context.\n"
-msgstr "OpenGLコンテキストが作成できません\n"
+msgstr "OpenGLコンテキストを作成できません\n"
 
 #: ../src/gtk_netplay.cpp:58
 msgid "Connection Error"
@@ -259,11 +259,11 @@ msgstr ""
 #: ../src/gtk_s9x.cpp:186
 #, c-format
 msgid "Error opening: %s\n"
-msgstr "エラー: %s が開けません\n"
+msgstr "エラー: %s を開けません\n"
 
 #: ../src/gtk_s9xwindow.cpp:798
 msgid "Couldn't load files."
-msgstr "ファイルがロードできません"
+msgstr "ファイルをロードできません"
 
 #: ../src/gtk_s9xwindow.cpp:829
 msgid "Open SNES Movie"
@@ -316,7 +316,7 @@ msgstr "SPCファイル"
 #: ../src/gtk_s9xwindow.cpp:1234
 #, c-format
 msgid "Couldn't save SPC file '%s'"
-msgstr "SPCファイル %s が保存できません"
+msgstr "SPCファイル %s を保存できません"
 
 #: ../src/gtk_s9xwindow.cpp:1311
 #, c-format
@@ -586,7 +586,7 @@ msgstr "44100 Hz"
 
 #: ../src/snes9x.ui:967
 msgid "32000 hz (SNES Default)"
-msgstr "32000 Hz (SNEデフォルト)"
+msgstr "32000 Hz (SNESデフォルト)"
 
 #: ../src/snes9x.ui:970
 msgid "22050 hz"
@@ -866,7 +866,7 @@ msgstr ""
 #: ../src/snes9x.ui:4700 ../src/snes9x.ui:4717 ../src/snes9x.ui:4734
 #: ../src/snes9x.ui:4751
 msgid "Browse..."
-msgstr "選択"
+msgstr "参照..."
 
 #: ../src/snes9x.ui:2083
 msgid "Clear entry"
