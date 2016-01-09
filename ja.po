@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-30 23:36+0900\n"
-"PO-Revision-Date: 2016-01-08 01:17+0900\n"
+"PO-Revision-Date: 2016-01-09 21:35+0900\n"
 "Last-Translator: trickart <trickart412@gmail.com>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -108,7 +108,7 @@ msgstr "%s はシェーダーファイルではありません\n"
 #: ../src/gtk_display_driver_opengl.cpp:553
 #, c-format
 msgid "Shader lacks any programs.\n"
-msgstr "シェーダーはなにかプログラムが不足しています。\n"
+msgstr "シェーダーはなにかプログラムが不足しています\n"
 
 #: ../src/gtk_display_driver_opengl.cpp:592
 #, c-format
@@ -861,6 +861,8 @@ msgid ""
 "The game chosen will be loaded before connecting. This field can be blank if "
 "the server will send the ROM image"
 msgstr ""
+"選んだROMはサーバー接続前にロードされます。この欄はサーバーからROMイメージを"
+"転送する場合空欄でも構いません"
 
 #: ../src/snes9x.ui:2061 ../src/snes9x.ui:3772 ../src/snes9x.ui:4685
 #: ../src/snes9x.ui:4700 ../src/snes9x.ui:4717 ../src/snes9x.ui:4734
@@ -878,19 +880,19 @@ msgstr "<b>ROMイメージ</b>"
 
 #: ../src/snes9x.ui:2132
 msgid "Connect to another computer"
-msgstr "別のマシンと接続"
+msgstr "別のマシンに接続"
 
 #: ../src/snes9x.ui:2136
 msgid "Connect to another computer that is running Snes9x NetPlay as a server"
-msgstr "Snes9xをネットプレイサーバーとして別のマシンと接続"
+msgstr "Snes9xをネットプレイサーバーとして実行してる別のマシンに接続します"
 
 #: ../src/snes9x.ui:2156
 msgid "Name or IP address:"
-msgstr "名前またはIPアドレス:"
+msgstr "ドメイン名またはIPアドレス:"
 
 #: ../src/snes9x.ui:2168
 msgid "Domain name or internet protocol address of a remote computer"
-msgstr "リモートPCのドメイン名またはIPアドレス"
+msgstr "接続先のドメイン名またはIPアドレスを入力してください"
 
 #: ../src/snes9x.ui:2184
 msgid "Port:"
@@ -898,7 +900,7 @@ msgstr "ポート:"
 
 #: ../src/snes9x.ui:2196
 msgid "Connect to specified TCP port on remote computer"
-msgstr ""
+msgstr "指定したTCPポートに接続します"
 
 #: ../src/snes9x.ui:2220
 msgid "Act as a server"
@@ -909,6 +911,8 @@ msgid ""
 "Host a game on this computer as Player 1, requiring extra throughput to "
 "support multitple users"
 msgstr ""
+"プレイヤー1としてゲームをホストします。\n"
+"シングルプレイよりも処理が重くなります"
 
 #: ../src/snes9x.ui:2244
 msgid "<b>Server</b>"
@@ -933,6 +937,8 @@ msgid ""
 "Send the running game image to players instead of requiring them to have "
 "their own copies"
 msgstr ""
+"各プレイヤーがROMを用意する代わりにサーバーから実行するゲームのROMイメージを"
+"送ります"
 
 #: ../src/snes9x.ui:2311
 msgid "Default port:"
@@ -940,15 +946,15 @@ msgstr "デフォルトポート:"
 
 #: ../src/snes9x.ui:2323
 msgid "TCP port used as a connection point for remote clients"
-msgstr ""
+msgstr "TCPポートはクライアントがこのマシンに接続するために使われます"
 
 #: ../src/snes9x.ui:2354
 msgid "Ask server to pause when"
-msgstr ""
+msgstr "クライアントが"
 
 #: ../src/snes9x.ui:2384
 msgid "frames behind"
-msgstr ""
+msgstr "フレーム遅れた時サーバーをポーズする"
 
 #: ../src/snes9x.ui:2407
 msgid "<b>Settings</b>"
@@ -964,7 +970,7 @@ msgstr "ROMを開いたらフルスクリーンモードに"
 
 #: ../src/snes9x.ui:2574
 msgid "Go to fullscreen mode immediately after opening a ROM"
-msgstr "ROMを開いたらフルスクリーンモードにします。"
+msgstr "ROMを開いたらフルスクリーンモードにします"
 
 #: ../src/snes9x.ui:2586
 msgid "Show frame rate"
@@ -992,11 +998,11 @@ msgstr "<b>基本設定</b>"
 
 #: ../src/snes9x.ui:2700
 msgid "Scale image to fit window"
-msgstr "ウィンドウに合わせて映像を拡大縮小する"
+msgstr "ウィンドウに合わせて映像を拡大縮小します"
 
 #: ../src/snes9x.ui:2704
 msgid "Scales the image so no black bars are present"
-msgstr "黒い縁が表示されないように映像を拡大縮小します。"
+msgstr "黒い縁が表示されないように映像を拡大縮小します"
 
 #: ../src/snes9x.ui:2724
 msgid "Aspect ratio:"
@@ -1204,7 +1210,7 @@ msgstr "ステレオ"
 
 #: ../src/snes9x.ui:3992
 msgid "Output two channels, left and right"
-msgstr "左右2チャンネルで出力します。"
+msgstr "左右2チャンネルで出力します"
 
 #: ../src/snes9x.ui:4015
 msgid "Playback rate:"
@@ -1359,7 +1365,9 @@ msgstr "装飾キー(Ctrl,Shift,Alt)を単体で使用する"
 
 #: ../src/snes9x.ui:5118
 msgid "Allow using modifier keys as independent keys instead of modifiers"
-msgstr "装飾キーを組み合わせてではなく単体のキーとして使用することを許可します"
+msgstr ""
+"装飾キーを組み合わせてではなく\n"
+"単体のキーとして使用することを許可します"
 
 #: ../src/snes9x.ui:5152
 msgid "Up"
