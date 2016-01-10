@@ -15,8 +15,9 @@ Githubの[snes9xgit/snes9x](https://github.com/snes9xgit/snes9x)の12月30日時
 
 Snes9x-gtkはスペイン語(ベネズエラ)とフランス語、ポルトガル語(ブラジル)、と何か(sr@latinってわからん)があるがちゃんと管理されてないようだ。
 
-またpotファイルもなく、恐らくpotファイルを生成するためにxgettextに投げるファイル一覧としてPOTFILES.inが存在するが、これも管理されておらずgtk_binding.cppなど漏れているファイルもある。
-そこでこれらを入れてpotファイルを生成するgenpot.shと生成済みのsnes9x-gtk.pot同梱した。
+またpotファイルもなく、恐らくpotファイルを生成するためにxgettextに投げるファイル一覧としてPOTFILES.inが存在するが、 ~~これも管理されておらずgtk_binding.cppなど漏れているファイルもある。
+そこでこれらを入れてpotファイルを生成するgenpot.shと生成済みのsnes9x-gtk.pot同梱した。~~
+よく見たら漏れてなかった…potファイルから漏れるのはcppなのにC言語のフォーマットでgettextを使ってるからだった。`xgettext --keyword=_` で解決する。
 
 またGithubのmasterと1.53は表示するメッセージが変更されているのかmasterには存在しないが1.53には存在するメッセージをpoファイルの末尾に追加している。
 
