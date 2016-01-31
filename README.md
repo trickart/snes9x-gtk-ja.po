@@ -24,4 +24,4 @@ Snes9x-gtkはスペイン語(ベネズエラ)とフランス語、ポルトガ�
 翻訳は未完成かつ訳したものも自信はないので貢献お待ちしてます。
 
 ## License
-[Snes9xのライセンス](https://github.com/snes9xgit/snes9x/blob/master/docs/snes9x-license.txt)に従う。
+[Snes9xのライセンス](https://github.com/snes9xgit/snes9x/tree/master/docs)に従う。
