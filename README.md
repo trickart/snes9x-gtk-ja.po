@@ -11,15 +11,10 @@ $ msgfmt ja.po -o snes9x-gtk.mo
 
 
 ## 備考
-Githubの[snes9xgit/snes9x](https://github.com/snes9xgit/snes9x)の12月30日時点から作成。
+3年ぶりに翻訳やろうとしたらいろいろ変わっていたので更新。
 
-Snes9x-gtkはスペイン語(ベネズエラ)とフランス語、ポルトガル語(ブラジル)、と何か(sr@latinってわからん)があるがちゃんと管理されてないようだ。
-
-またpotファイルもなく、恐らくpotファイルを生成するためにxgettextに投げるファイル一覧としてPOTFILES.inが存在するが、 ~~これも管理されておらずgtk_binding.cppなど漏れているファイルもある。
-そこでこれらを入れてpotファイルを生成するgenpot.shと生成済みのsnes9x-gtk.pot同梱した。~~
-よく見たら漏れてなかった…potファイルから漏れるのはcppなのにC言語のフォーマットでgettextを使ってるからだった。`xgettext --keyword=_` で解決する。
-
-またGithubのmasterと1.53は表示するメッセージが変更されているのかmasterには存在しないが1.53には存在するメッセージをpoファイルの末尾に追加している。
+以前の翻訳は無事取り込まれたのでpotファイルを生成したりなどはやめてja.poだけを編集することとした。
+またpoの生成にpotを作らずmesonなどを利用して生成してるっぽいのでgenpot.shとsnes9x-gtk.potは削除。
 
 翻訳は未完成かつ訳したものも自信はないので貢献お待ちしてます。
 
