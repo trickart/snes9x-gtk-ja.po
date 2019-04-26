@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-16 15:42-0500\n"
-"PO-Revision-Date: 2016-01-09 21:35+0900\n"
+"PO-Revision-Date: 2019-04-26 14:59+0900\n"
 "Last-Translator: trickart <trickart412@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #: src/gtk_binding.cpp:243
 #, c-format
@@ -28,19 +28,19 @@ msgid "Keyboard %s%s%s%s"
 msgstr "キーボード %s%s%s%s"
 
 #: src/gtk_binding.cpp:269
-#, fuzzy, c-format
+#, c-format
 msgid "Axis %u %s %u%%"
-msgstr "軸 #%d %s %d%%"
+msgstr "軸 #%u %s %u%%"
 
 #: src/gtk_binding.cpp:274
-#, fuzzy, c-format
+#, c-format
 msgid "Button %u"
-msgstr "ボタン %d"
+msgstr "ボタン %u"
 
 #: src/gtk_binding.cpp:276
-#, fuzzy, c-format
+#, c-format
 msgid "Joystick %u %s"
-msgstr "ジョイスティック %d %s"
+msgstr "ジョイスティック %u %s"
 
 #: src/gtk_binding.cpp:281
 #, c-format
@@ -70,7 +70,7 @@ msgstr ""
 
 #: src/gtk_cheat.cpp:472
 msgid "Couldn't Find Cheats Database"
-msgstr ""
+msgstr "チートデータベースが見つかりません"
 
 #: src/gtk_cheat.cpp:473
 msgid "No Matching Game Found"
@@ -275,9 +275,24 @@ msgid ""
 "<i>CRC32:</i> %08X\n"
 "<i>Revision:</i> %s<b><i>%s%s</i></b>"
 msgstr ""
+"<b>%s の情報</b>\n"
+"\n"
+"<i>名前:</i> %s\n"
+"<i>速度:</i> %02X/%s\n"
+"<i>マップ:</i> %s\n"
+"<i>タイプ:</i> %02x\n"
+"<i>Contents:</i> %s\n"
+"<i>ROMサイズ:</i> %s\n"
+"<i>Calculated Size:</i> %d\n"
+"<i>SRAMサイズ:</i> %s\n"
+"<i>ヘッダーチェックサム:</i> %04X\n"
+"<i>Checksum Compliment:</i> %04X\n"
+"<i>Actual Checksum:</i> %04X\n"
+"<i>Video:</i> %s\n"
+"<i>CRC32:</i> %08X\n"
+"<i>リビジョン:</i> %s<b><i>%s%s</i></b>"
 
 #: src/gtk_s9xwindow.cpp:1366
-#, fuzzy
 msgid ""
 "\n"
 "\n"
@@ -285,7 +300,7 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"このROMは改変されているか壊れています\t"
+"このROMは自動でパッチされています\t"
 
 #: src/gtk_s9xwindow.cpp:1369
 msgid ""
@@ -306,13 +321,12 @@ msgid "Export Shader Preset to:"
 msgstr ""
 
 #: src/gtk_shader_parameters.cpp:124
-#, fuzzy
 msgid "Shader Preset"
-msgstr "ハードウェアリセット"
+msgstr "シェーダープリセット"
 
 #: src/gtk_shader_parameters.cpp:169
 msgid "GLSL Shader Parameters"
-msgstr ""
+msgstr "GLSLシェーダーパラメータ"
 
 #: src/gtk_file.cpp:417
 #, fuzzy
@@ -320,9 +334,8 @@ msgid "Open SNES ROM Image"
 msgstr "ROMイメージを開く(_O)..."
 
 #: src/gtk_file.cpp:425
-#, fuzzy
 msgid "SNES ROM Images"
-msgstr "SNESムービー"
+msgstr "SNES ROMイメージ"
 
 #: src/snes9x.ui:9
 msgid "About Snes9x"
@@ -338,19 +351,19 @@ msgstr "Snes9x チート"
 
 #: src/snes9x.ui:389
 msgid "Update Cheat"
-msgstr ""
+msgstr "チートを更新"
 
 #: src/snes9x.ui:404
 msgid "Disable All"
-msgstr ""
+msgstr "全て無効"
 
 #: src/snes9x.ui:420
 msgid "Delete All Cheats"
-msgstr ""
+msgstr "すべてのチートを削除"
 
 #: src/snes9x.ui:435
 msgid "Search Cheat Database"
-msgstr ""
+msgstr "チートデータベースを検索"
 
 #: src/snes9x.ui:477
 msgid "Code:"
@@ -374,23 +387,23 @@ msgstr ""
 
 #: src/snes9x.ui:812
 msgid "Black"
-msgstr ""
+msgstr "黒"
 
 #: src/snes9x.ui:815
 msgid "Color bars"
-msgstr ""
+msgstr "カラーバー"
 
 #: src/snes9x.ui:818
 msgid "Pixel art patterns"
-msgstr ""
+msgstr "ピクセルアートパターン"
 
 #: src/snes9x.ui:821
 msgid "Dithered gradient"
-msgstr ""
+msgstr "グラデーション"
 
 #: src/snes9x.ui:824
 msgid "Color bars and patterns"
-msgstr ""
+msgstr "カラーバーとパターン"
 
 #: src/snes9x.ui:835
 msgid "Game Genie"
@@ -473,18 +486,16 @@ msgid "8:7 Square pixels"
 msgstr "8:7 正方形ドット"
 
 #: src/snes9x.ui:939
-#, fuzzy
 msgid "8:7 Square pixels, integer multiples"
-msgstr "8:7 正方形ドット"
+msgstr "8:7 正方形ドット(整数倍)"
 
 #: src/snes9x.ui:942
 msgid "4:3 SNES correct aspect"
 msgstr "4:3 SNESのアスペクト比"
 
 #: src/snes9x.ui:945
-#, fuzzy
 msgid "4:3 SNES correct aspect, integer multiples"
-msgstr "4:3 SNESのアスペクト比"
+msgstr "4:3 SNESのアスペクト比(整数倍)"
 
 #: src/snes9x.ui:948
 msgid "8*8:7*7 NTSC"
@@ -492,7 +503,7 @@ msgstr ""
 
 #: src/snes9x.ui:951
 msgid "8*8:7*7 NTSC, integer multiples"
-msgstr ""
+msgstr "8*8:7*7 NTSC(整数倍)"
 
 #: src/snes9x.ui:968
 msgid "Merge adjacent pairs"
@@ -500,7 +511,7 @@ msgstr ""
 
 #: src/snes9x.ui:971
 msgid "Output directly"
-msgstr ""
+msgstr "直接出力"
 
 #: src/snes9x.ui:974
 msgid "Scale low-resolution screens"
@@ -583,9 +594,8 @@ msgid "44100 hz"
 msgstr "44100 Hz"
 
 #: src/snes9x.ui:1104
-#, fuzzy
 msgid "32000 hz"
-msgstr "8000 Hz"
+msgstr "32000 Hz"
 
 #: src/snes9x.ui:1107
 msgid "22050 hz"
@@ -704,18 +714,16 @@ msgid "Slot _8"
 msgstr "スロット8 (_8)"
 
 #: src/snes9x.ui:1348 src/snes9x.ui:1482
-#, fuzzy
 msgid "Slot _9"
-msgstr "スロット0 (_0)"
+msgstr "スロット9 (_9)"
 
 #: src/snes9x.ui:1363
 msgid "From _File..."
 msgstr "ファイルを読み込む(_F)..."
 
 #: src/snes9x.ui:1378
-#, fuzzy
 msgid "_Undo Load State"
-msgstr "ステートセーブをロード(_L)"
+msgstr ""
 
 #: src/snes9x.ui:1391
 msgid "_Save State"
@@ -782,9 +790,8 @@ msgid "_View"
 msgstr "表示(_V)"
 
 #: src/snes9x.ui:1709
-#, fuzzy
 msgid "_Toggle Menubar"
-msgstr "メニューバーの表示/非表示を切り替え"
+msgstr "メニューバーの表示/非表示を切り替え(_T)"
 
 #: src/snes9x.ui:1726
 msgid "_Change Size"
@@ -852,7 +859,7 @@ msgstr "チート(_C)..."
 
 #: src/snes9x.ui:1962
 msgid "_Shader Parameters..."
-msgstr ""
+msgstr "シェーダーパラメータ(_S)"
 
 #: src/snes9x.ui:1978
 msgid "_Preferences..."
@@ -1003,7 +1010,7 @@ msgstr "フレームレートを表示"
 
 #: src/snes9x.ui:2779
 msgid "Show pressed keys"
-msgstr ""
+msgstr "入力したキーを表示"
 
 #: src/snes9x.ui:2794
 msgid "Use overscanned height"
@@ -1022,9 +1029,8 @@ msgid "Changes the screen resolution when running Snes9x in fullscreen mode"
 msgstr "フルスクリーンモード時の解像度を変更します"
 
 #: src/snes9x.ui:2862
-#, fuzzy
 msgid "Basic Settings"
-msgstr "<b>基本設定</b>"
+msgstr "基本設定"
 
 #: src/snes9x.ui:2903
 msgid "Scale image to fit window"
@@ -1092,7 +1098,7 @@ msgstr ""
 
 #: src/snes9x.ui:3266
 msgid "Sharpness:"
-msgstr "シャープネス"
+msgstr "シャープネス:"
 
 #: src/snes9x.ui:3281
 msgid "Brightness:"
@@ -1136,7 +1142,7 @@ msgstr ""
 
 #: src/snes9x.ui:3728
 msgid "Scaling"
-msgstr ""
+msgstr "拡大"
 
 #: src/snes9x.ui:3770
 msgid "Bilinear-filter output"
@@ -1151,9 +1157,8 @@ msgid "Sync the image to the vertical retrace to stop tearing"
 msgstr ""
 
 #: src/snes9x.ui:3807
-#, fuzzy
 msgid "Reduce input lag with glFinish"
-msgstr "入力ラグを軽減する"
+msgstr "glFinishで入力ラグを軽減する"
 
 #: src/snes9x.ui:3811
 msgid ""
@@ -1162,9 +1167,8 @@ msgid ""
 msgstr ""
 
 #: src/snes9x.ui:3822
-#, fuzzy
 msgid "Reduce input lag with sync control"
-msgstr "入力ラグを軽減する"
+msgstr "同期制御で入力ラグを軽減する"
 
 #: src/snes9x.ui:3826
 msgid ""
@@ -1197,9 +1201,8 @@ msgid "Pixel-buffer format:"
 msgstr "ピクセルバッファフォーマット:"
 
 #: src/snes9x.ui:3927
-#, fuzzy
 msgid "Shader:"
-msgstr "GLSLシェーダを使用:"
+msgstr "シェーダー:"
 
 #: src/snes9x.ui:3991
 msgid "Force an inverted byte-ordering"
@@ -1212,9 +1215,8 @@ msgid ""
 msgstr ""
 
 #: src/snes9x.ui:4019
-#, fuzzy
 msgid "Hardware Acceleration"
-msgstr "<b>ハードウェアアクセラレーション</b>"
+msgstr "ハードウェアアクセラレーション"
 
 #: src/snes9x.ui:4048
 msgid "Display"
@@ -1249,14 +1251,12 @@ msgid "Disables output of sound"
 msgstr "音声出力を無効にします"
 
 #: src/snes9x.ui:4183
-#, fuzzy
 msgid "Mute sound when using turbo"
-msgstr "サウンドをミュートする"
+msgstr "ターボ中サウンドをミュートする"
 
 #: src/snes9x.ui:4187
-#, fuzzy
 msgid "Disables output of sound when using turbo"
-msgstr "音声出力を無効にします"
+msgstr "ターボ使用中は音声出力を無効にします"
 
 #: src/snes9x.ui:4210
 msgid "Playback rate:"
@@ -1306,34 +1306,32 @@ msgid "Throttling method:"
 msgstr ""
 
 #: src/snes9x.ui:4559
-#, fuzzy
 msgid "<b>Speed Control</b>"
-msgstr "<b>サーバー</b>"
+msgstr "<b>速度コントロール</b>"
 
 #: src/snes9x.ui:4597
-#, fuzzy
 msgid "Rewind buffer size (MB):"
-msgstr "バッファサイズ:"
+msgstr "巻き戻すバッファサイズ(MB):"
 
 #: src/snes9x.ui:4639
 msgid "Number of frames between rewind snapshots:"
 msgstr ""
 
 #: src/snes9x.ui:4680
-#, fuzzy
 msgid "<b>Rewind Settings</b>"
-msgstr "<b>サウンド設定</b>"
+msgstr "<b>巻き戻し設定</b>"
 
 #: src/snes9x.ui:4711
-#, fuzzy
 msgid "Allow invalid VRAM access"
-msgstr "不正なVRAMアクセスをブロックする"
+msgstr "不正なVRAMアクセスを許可する"
 
 #: src/snes9x.ui:4715
 msgid ""
 "Allows ROM hacks to write to screen at the wrong time. Only use if you know "
 "your ROM hack expects this"
 msgstr ""
+"不正なタイミングで画面出力をするROMハックを許可します。ROMハックによって何が"
+"起きるかわかる時のみ使用してください。"
 
 #: src/snes9x.ui:4725
 msgid "Allow opposing dpad directions"
@@ -1345,7 +1343,7 @@ msgstr "左右もしくは上下を同時に押した時"
 
 #: src/snes9x.ui:4740
 msgid "Overclock CPU"
-msgstr ""
+msgstr "CPUをオーバークロックする"
 
 #: src/snes9x.ui:4744
 msgid "Reduces slowdown, but has potential to break games"
@@ -1369,21 +1367,19 @@ msgstr ""
 
 #: src/snes9x.ui:4792
 msgid "SuperFX clock speed %:"
-msgstr ""
+msgstr "SuperFXのクロック速度"
 
 #: src/snes9x.ui:4830
 msgid "Gaussian is the correct behavior for SNES hardware"
 msgstr ""
 
 #: src/snes9x.ui:4837
-#, fuzzy
 msgid "Sound filter:"
-msgstr "サウンドドライバ:"
+msgstr "サウンドフィルタ:"
 
 #: src/snes9x.ui:4874
-#, fuzzy
 msgid "<b>Hacks</b>"
-msgstr "<b>押しっぱなし</b>"
+msgstr "<b>ハック</b>"
 
 #: src/snes9x.ui:4916 src/snes9x.ui:7105
 msgid "Emulation"
@@ -1654,27 +1650,27 @@ msgstr "グラフィックス"
 
 #: src/snes9x.ui:7434
 msgid "Save current slot"
-msgstr ""
+msgstr "現在のスロットにセーブ"
 
 #: src/snes9x.ui:7467
 msgid "Load current slot"
-msgstr ""
+msgstr "現在のスロットからロード"
 
 #: src/snes9x.ui:7500
 msgid "Increment and save"
-msgstr ""
+msgstr "次のスロットに移動しセーブ"
 
 #: src/snes9x.ui:7533
 msgid "Decrement and load"
-msgstr ""
+msgstr "前のスロットに移動しロード"
 
 #: src/snes9x.ui:7566
 msgid "Increment slot"
-msgstr ""
+msgstr "次のスロットに移動"
 
 #: src/snes9x.ui:7599
 msgid "Decrement slot"
-msgstr ""
+msgstr "前のスロットに移動"
 
 #: src/snes9x.ui:7643
 msgid "<b>Quick save state</b>"
@@ -1721,9 +1717,8 @@ msgid "Slot 8"
 msgstr "スロット8"
 
 #: src/snes9x.ui:7799 src/snes9x.ui:7957
-#, fuzzy
 msgid "Slot 9"
-msgstr "スロット1"
+msgstr "スロット9"
 
 #: src/snes9x.ui:8396
 msgid "Toggle sound channel 0"
@@ -1787,7 +1782,7 @@ msgstr "コントローラー1と2を入れ替える"
 
 #: src/snes9x.ui:8902
 msgid "Rewind"
-msgstr ""
+msgstr "巻き戻し"
 
 #: src/snes9x.ui:8933
 msgid "Capture/release mouse"
@@ -1815,12 +1810,11 @@ msgstr "ESCキー:"
 
 #: src/snes9x.ui:9141
 msgid "Initial background:"
-msgstr ""
+msgstr "初期画面:"
 
 #: src/snes9x.ui:9182
-#, fuzzy
 msgid "<b>Window Behavior</b>"
-msgstr "<b>ウィンドウ切り替え</b>"
+msgstr "<b>ウィンドウの挙動</b>"
 
 #: src/snes9x.ui:9212
 msgid "Prevent the screensaver from activating"
